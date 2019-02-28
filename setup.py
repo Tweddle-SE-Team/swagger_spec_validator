@@ -29,7 +29,7 @@ setup(
     },
     include_package_data=True,
     install_requires=[
-        'jsonschema',
+        'jsonschema>=2.6.0,<3.0.0',
         'six',
     ],
     license=about['__license__']
